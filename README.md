@@ -1,2 +1,2 @@
-# InspirationLab
+# GraffitiSpots
 Samenwerking groep school
