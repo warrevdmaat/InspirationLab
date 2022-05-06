@@ -78,39 +78,37 @@
                 <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                   </div>
-                </div>
-
-                <div class="row">
+                
                   <div class="col-md-6 form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    <input type="text" class="form-control" name="username" id="username" placeholder="Your Username" required>
                   </div>
                 </div>
             
            
                 <div class="row">
                   <div class="col-md-6 form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    <label class="genderlabel" id="genderlabel">Gender: </label>
+                      <input type="checkbox" class="checkbox-control" name="M" id="M" value="M" >
+                      <input type="checkbox" class="checkbox-control" name="F" id="F" value="F" >
                   </div>
-
-                  <div class="col-md-6 form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-
-                </div>
-
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                </div>
                 
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  <div class="col-md-6 form-group">
+                    <input type="date" class="form-control" name="birthday" id="birthday" placeholder="Your Birthday" required>
+                  </div>
+                  
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Your Password" required>
+                  </div>
+
                 </div>
+
                 <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Your account has been created. Thank you!</div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center"><button type="submit">Sign Up</button></div>
            
             </form>
 
